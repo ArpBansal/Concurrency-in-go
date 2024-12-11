@@ -7,18 +7,26 @@ This repository contains three Go files that demonstrate the differences between
 1. **sequential.go**: Showcases sequential execution.
 
 time of execution for my system - 1m32.108311035s
+
 2. **unfair_threads.go**: Demonstrates unfair threading.
 
 time of execution for my system - 17.330201271s
+
 3. **fair_threads.go**: Illustrates fair threading.
 
 time of execution for my system - 14.074594448s
 ## Usage
 
-To run any of the examples, use the `go run` command followed by the file name. For example:
+clone repo via:
 
 ```sh
-go run {folder}/{filename}
+git clone https://github.com/ArpBansal/Concurrency-in-go.git
+```
+
+To run any of the examples, use the `go run` command followed by the {folder name}/{file name}. For example:
+
+```sh
+go run  unfair_threads_PrimeNumber/unfair_threads_PrimeNumber.go
 ```
 
 ## Description
